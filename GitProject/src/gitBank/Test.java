@@ -14,14 +14,20 @@ public class Test {
 		 * 
 		 * System.out.println(Obj1.id); System.out.println(Obj1.name);
 		 * System.out.println(Obj1.balance); System.out.println(Obj1.isLocked);
+		 * 
+		 * 
+		 * Customer obj1 = new Customer(13, "raj", 235, true);
+		 * 
+		 * System.out.println(obj1.id); System.out.println(obj1.name);
+		 * System.out.println(obj1.balance); System.out.println(obj1.locked);
 		 */
-		
-		Customer obj1 = new Customer(13, "raj", 235, true);
-		
-		System.out.println(obj1.id);
-		System.out.println(obj1.name);
-		System.out.println(obj1.balance);
-		System.out.println(obj1.locked);
+
+		Customer.Organization = "Chase";
+
+		Customer obj1 = new Customer(11, "Raj", 123, true);
+		Customer obj2 = new Customer(11, "Raj2", 123, true);
+		System.out.println(obj1.Organization);
+		System.out.println(obj2.Organization);
 	}
 
 }

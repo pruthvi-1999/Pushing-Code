@@ -6,6 +6,7 @@ public class Customer {
 	String name;
 	float balance;
 	boolean locked;
+	public static String Organization;
 
 	/*
 	 * public int getId() { return id; }
